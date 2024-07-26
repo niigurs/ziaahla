@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с левой колонкой</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 390px;
+            max-height: 915px;
+            width: 100%;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0 0 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать!</h1>
+        <p>Это пример сайта, который располагается в левой части экрана и имеет максимальную ширину 390px и максимальную высоту 915px. Вы можете добавить сюда любой контент, который вам нужен.</p>
+        <p>Если контент превышает максимальную высоту, появится полоса прокрутки.</p>
+        <p>Дополнительный контент для демонстрации максимальной высоты...</p>
+        <p>Дополнительный контент для демонстрации максимальной высоты...</p>
+        <p>Дополнительный контент для демонстрации максимальной высоты...</p>
+        <p>Дополнительный контент для демонстрации максимальной высоты...</p>
+        <p>Дополнительный контент для демонстрации максимальной высоты...</p>
+        <p>Дополнительный контент для демонстрации максимальной высоты...</p>
+    </div>
+</body>
+</html>
